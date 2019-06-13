@@ -142,7 +142,6 @@ img {
 
   .portPic {
       display: block;
-
         width: 250px;
         height: 250px;
         background-position: 50% 50%;
@@ -154,7 +153,8 @@ img {
   }
 
   .portPic:hover {
-      filter: grayscale(0)
+      filter: grayscale(0);
+      background-position: 40% 40%;
   }
 
 .portContainer {
@@ -185,7 +185,6 @@ img {
 }
 
 
-
 .picBanner p {
     color: white;
     text-align: center;
@@ -211,6 +210,7 @@ img {
 .box:hover {
     transform: scale(1.1);
 }
+
 
 
 
